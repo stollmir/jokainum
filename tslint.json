@@ -1,0 +1,104 @@
+align	
+0	true
+1	"parameters"
+2	"arguments"
+3	"statements"
+ban	false
+class-name	true
+comment-format	
+0	false
+1	"check-space"
+2	"check-lowercase"
+curly	false
+eofline	false
+forin	false
+indent	
+0	true
+1	4
+interface-name	false
+jsdoc-format	false
+label-position	true
+label-undefined	true
+max-line-length	
+0	false
+1	140
+member-ordering	
+0	true
+1	"static-before-instance"
+2	"variables-before-functions"
+no-any	true
+no-arg	true
+no-bitwise	true
+no-console	
+0	false
+1	"debug"
+2	"info"
+3	"time"
+4	"timeEnd"
+5	"trace"
+no-construct	true
+no-constructor-vars	true
+no-debugger	true
+no-duplicate-key	true
+no-duplicate-variable	true
+no-empty	true
+no-eval	true
+no-string-literal	false
+no-switch-case-fall-through	false
+trailing-comma	
+0	true
+1	
+singleline	"never"
+multiline	"never"
+no-trailing-whitespace	false
+no-unreachable	true
+no-unused-expression	true
+no-unused-variable	true
+no-use-before-declare	true
+no-var-requires	false
+no-conditional-assignment	true
+no-shadowed-variable	false
+one-line	
+0	true
+1	"check-open-brace"
+2	"check-catch"
+3	"check-whitespace"
+quotemark	
+0	true
+1	"double"
+radix	false
+semicolon	true
+switch-default	false
+triple-equals	
+0	false
+1	"allow-null-check"
+typedef	
+0	true
+1	"call-signature"
+2	"parameter"
+3	"property-declaration"
+4	"variable-declaration"
+5	"member-variable-declaration"
+typedef-whitespace	
+0	true
+1	
+call-signature	"nospace"
+index-signature	"nospace"
+parameter	"nospace"
+property-declaration	"nospace"
+variable-declaration	"nospace"
+use-strict	
+0	false
+1	"check-module"
+2	"check-function"
+variable-name	
+0	true
+1	"check-format"
+2	"allow-leading-underscore"
+whitespace	
+0	true
+1	"check-branch"
+2	"check-decl"
+3	"check-operator"
+4	"check-separator"
+5	"check-type"
