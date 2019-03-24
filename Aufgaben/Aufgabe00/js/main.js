@@ -1,7 +1,7 @@
-function klickmichan() {
-    var person = prompt("Name");
-    if (person != null) {
-        document.getElementById("allert").innerHTML = "Hello " + person;
+function ClickMe() {
+    var student = prompt("Name ");
+    if (student != null) {
+        document.getElementById("allert").innerHTML = "Hello " + student;
     }
 }
 //# sourceMappingURL=main.js.map
