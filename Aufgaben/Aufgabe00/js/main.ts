@@ -1,7 +1,7 @@
 function klickmichan():void {
-    var person=prompt ("Bitte füge deinen Namen ein!");
+                             var student=prompt ("Name ");
 
-if (person!=null) {
-    document.getElementById("Meldung").innerHTML= "Hey " + person + ". Was geht ab?";
+if (student!=null) {
+                    document.getElementById("allert").innerHTML= "Hello " + person;
 }
 }
