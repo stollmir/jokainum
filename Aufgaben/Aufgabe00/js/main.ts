@@ -1,4 +1,4 @@
-function klickmichan():void {
+function ClickMe():void {
                              var student=prompt ("Name ");
 
 if (student!=null) {
