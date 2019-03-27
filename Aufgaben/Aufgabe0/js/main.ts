@@ -1,7 +1,9 @@
-function greeter(person: string) {
-    return "Hello, " + person;
+
+    function greeter() {
+        let name: string = prompt("Abfrage", "");
+        if (name != null) {
+            document.getElementById("Greet").innerHTML =
+                "hey " + name;
+                console.log ( "hey" + name );
+        }
 }
-
-let user = prompt("Abfrage");
-
-document.body.innerHTML = greeter(user);

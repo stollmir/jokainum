@@ -1,6 +1,9 @@
-function greeter(person) {
-    return "Hello, " + person;
+function greeter() {
+    let name = prompt("Abfrage", "");
+    if (name != null) {
+        document.getElementById("Greet").innerHTML =
+            "hey " + name;
+        console.log("hey" + name);
+    }
 }
-let user = prompt("Abfrage");
-document.body.innerHTML = greeter(user);
 //# sourceMappingURL=main.js.map
