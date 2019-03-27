@@ -1,7 +1,7 @@
-function ClickMe():void {
-                             var student=prompt ("Name ");
+function greeter(person: string) {
+    return "Hello, " + person;
+}
 
-if (student!=null) {
-                    document.getElementById("allert").innerHTML= "Hello " + student;
-}
-}
+let user = prompt("Abfrage");
+
+document.body.innerHTML = greeter(user);
