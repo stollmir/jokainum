@@ -1,5 +1,6 @@
-let student = prompt("Name ");
-if (student != null) {
-    document.getElementById("allert").innerHTML = "Hello " + student;
+function greeter(person) {
+    return "Hello, " + person;
 }
+let user = prompt("Abfrage");
+document.body.innerHTML = greeter(user);
 //# sourceMappingURL=main.js.map
