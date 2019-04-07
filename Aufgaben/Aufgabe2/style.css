@@ -1,0 +1,47 @@
+
+
+#stack{
+    position:relative;
+    top:5%;
+    width: 10em;
+    height: 15em;
+    background-color:whitesmoke;
+    border:solid grey;
+    display: flex;
+    float: left;
+    margin-left:0.5em;
+    margin-right: 0.5em;
+    margin-top: 2em;
+    clear:both;
+}
+#filing{
+    position:relative;
+    top:5%;
+    left:80%;
+    width: 10em;
+    height: 15em;
+    background-color:whitesmoke;
+    border:solid grey;
+    display: flex;
+    float: left;
+    margin-left:0.5em;
+    margin-right: 0.5em;
+    margin-top: 2em;
+    clear:both;
+    clear:both;
+}
+
+#handcards{
+    width: 10em;
+    height: 15em;
+    background-color: white;
+    border:solid grey;
+    display: flex;
+    float: left;
+    position:relative;
+    margin-top: 2em;
+    margin-left:0.5em;
+    margin-right: 0.5em;
+
+}
+
