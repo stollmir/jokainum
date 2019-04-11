@@ -1,47 +1,16 @@
-
-
 #stack{
-    position:relative;
-    top:5%;
-    width: 10em;
-    height: 15em;
-    background-color:whitesmoke;
-    border:solid grey;
-    display: flex;
-    float: left;
-    margin-left:0.5em;
-    margin-right: 0.5em;
-    margin-top: 2em;
-    clear:both;
+    position: absolute;
+    left: 1%;
+    border: solid pink;
+    width: 10%;
+    top:1%;
+    padding-bottom: 10%;
 }
 #filing{
-    position:relative;
-    top:5%;
-    left:80%;
-    width: 10em;
-    height: 15em;
-    background-color:whitesmoke;
-    border:solid grey;
-    display: flex;
-    float: left;
-    margin-left:0.5em;
-    margin-right: 0.5em;
-    margin-top: 2em;
-    clear:both;
-    clear:both;
+    position: absolute;
+    border: solid pink;
+    left: 1%;
+    width: 10%;
+    top:50%;
+    padding-bottom: 10%;
 }
-
-#handcards{
-    width: 10em;
-    height: 15em;
-    background-color: white;
-    border:solid grey;
-    display: flex;
-    float: left;
-    position:relative;
-    margin-top: 2em;
-    margin-left:0.5em;
-    margin-right: 0.5em;
-
-}
-

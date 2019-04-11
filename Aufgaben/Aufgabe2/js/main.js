@@ -16,20 +16,19 @@ for (let i = 0; i < parsedpromptvalue; i++) {
     let hold = Stack.splice(x, 1);
     console.log("hold: " + i + ": " + hold);
     Handcards.push(hold[0]);
-    console.log(Handcards);
-    function build(html, _acard) {
-        let _card = document.createElement('div');
-        let div = `<div>
-                <p> </p>
-                
-                
-                </div>`;
-        _card.innerHTML = div;
-        document.getElementById(html).appendChild(_card);
-    }
+    // erstelle ein neues div Element
+    // und gib ihm Style
+    // und Inhalt
+    let newDiv = document.createElement("div");
+    newDiv.style.position = "relative";
+    newDiv.style.border = "solid pink";
+    newDiv.style.display = "inline-block";
+    newDiv.style.padding = "2%";
+    newDiv.style.left = "15%";
+    newDiv.style.width = "2%";
+    let newContent = document.createTextNode(hold[0]);
+    newDiv.appendChild(newContent);
+    // füge das neu erstellte Element und seinen Inhalt ins DOM ein
+    document.body.appendChild(newDiv);
 }
-function init() {
-    parsedpromptvalue;
-}
-document.addEventListener('DOMContentLoaded', init);
 //# sourceMappingURL=main.js.map
