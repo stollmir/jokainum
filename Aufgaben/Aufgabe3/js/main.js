@@ -4,6 +4,17 @@ let stack = ["♥7", "♥8", "♥9", "♥10", "♥J", "♥D", "♥K", "♥A", "�
 let handcards = [];
 //Eingabewert von "prmopt()" als Int 
 let amountInt = parseInt(prompt("Karten"), 10);
+document.addEventListener("click", randomPicking);
+document.getElementById('handcards').addEventListener('click', pushCard());
+document.getElementById('stack').addEventListener('click', pullCard());
+document.addEventListener('keydown', event => {
+    if (event.keyCode == 32) {
+        pullCard();
+    }
+    else {
+        return;
+    }
+});
 for (let i = 0; i < amountInt; i++) {
     //Zuffallswahl aus "Stack-Array"
     function randomPicking() {
