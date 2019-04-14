@@ -14,3 +14,10 @@
     top:50%;
     padding-bottom: 10%;
 }
+#handcards{
+    position: relative;
+    border: solid pink;
+    padding: 2%;
+    left: 15%;
+    width: 80%;
+}
