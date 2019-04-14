@@ -1,0 +1,16 @@
+#stack{
+    position: absolute;
+    left: 1%;
+    border: solid pink;
+    width: 10%;
+    top:1%;
+    padding-bottom: 10%;
+}
+#filing{
+    position: absolute;
+    border: solid pink;
+    left: 1%;
+    width: 10%;
+    top:50%;
+    padding-bottom: 10%;
+}
