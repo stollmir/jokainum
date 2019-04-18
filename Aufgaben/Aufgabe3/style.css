@@ -8,6 +8,7 @@
 }
 #filing{
     position: absolute;
+    display: inline-block;
     border: solid pink;
     left: 1%;
     width: 10%;
@@ -21,3 +22,15 @@
     left: 15%;
     width: 80%;
 }
+button {
+    position: relative;
+    left:15%;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: solid pink;
+    font-size: 20px;
+    padding: 10px 100px 10px 20px;
+}
+  
