@@ -12,6 +12,7 @@ namespace Aufgabe3 {
   
   let div = document.createElement("div");
   let sortButton: HTMLButtonElement = document.createElement("button");
+  sortButton.innerText = "Sort";
   div.id = "button";
   div.appendChild(sortButton);
 

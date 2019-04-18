@@ -11,6 +11,7 @@ var Aufgabe3;
     //Erstelle Button
     let div = document.createElement("div");
     let sortButton = document.createElement("button");
+    sortButton.innerText = "Sort";
     div.id = "button";
     div.appendChild(sortButton);
     //Füge Body Button hinzu    
