@@ -43,9 +43,9 @@ namespace Aufgabe3 {
   }
 
   //Erstellt Handkarten
-  function createCards() {
+  function createCards() :void{
       for (let i: number = 0; i < handcards.length; i++) {
-          let div = document.createElement("div")
+          let div = document.createElement("div");
           div.style.position = "relative";
           div.style.border = "solid pink";
           div.style.display = "inline-block";
@@ -58,7 +58,7 @@ namespace Aufgabe3 {
       }
   }
 
-  function pushCard(_event: MouseEvent) {
+  function pushCard(_event: MouseEvent): void {
       //Target ermitteln 
       //Index von "Target-Text" ermitteln
       let target: HTMLElement = <HTMLElement>_event.target;
@@ -67,7 +67,7 @@ namespace Aufgabe3 {
       console.log(target);
 
       //Spliced "handcard-array und pusht ins "filing-array""
-      let hold = handcards.splice(handcardsindex, 1);
+      let hold : string[]= handcards.splice(handcardsindex, 1);
       filing.push(hold[0]);
       console.log(hold);
       console.log("filing" + filing);
@@ -76,11 +76,11 @@ namespace Aufgabe3 {
       document.getElementById("handcards").removeChild(target);
 
       //Fügt dem "div id= "filing-arraywert" als Text zu
-      let card = document.createTextNode(hold[0]);
+      let card: Text = document.createTextNode(hold[0]);
       document.getElementById("filing").innerText = card.substringData(0, 3);
   }
 
-  function pullCard(_event: Event) {
+  function pullCard(_event: Event): void{
       randomPicking();
 
       //Erstelle zusätzliche Handkarte und füge Sie zum "Handcards-div" hinzu
