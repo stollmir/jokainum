@@ -18,7 +18,7 @@
 #handcards{
     position: relative;
     border: solid pink;
-    padding: 2%;
+    padding: 1%;
     left: 15%;
     width: 80%;
 }
@@ -30,7 +30,7 @@ button {
     border-radius: 28px;
     font-family: Arial;
     color: solid pink;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 100px 10px 20px;
 }
    
