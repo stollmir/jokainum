@@ -8,8 +8,8 @@ namespace Aufgabe3 {
   let filing: string[] = [];
   //Eingabewert von "prmopt()" als Int
   let amountInt: number = parseInt(prompt("Karten"), 10);
-  //Erstelle Button
   
+  //Erstelle Button
   let div = document.createElement("div");
   let sortButton: HTMLButtonElement = document.createElement("button");
   sortButton.innerText = "Sort";
@@ -27,8 +27,6 @@ namespace Aufgabe3 {
       document.getElementById("stack").addEventListener("click", pullCard);
       document.body.addEventListener("keydown", spacePull);
       document.getElementById("button").addEventListener("click", sort);
-      
-
   }
 
   for (let i: number = 0; i < amountInt; i++) {
