@@ -1,0 +1,26 @@
+fieldset {
+	position: relative;
+	width: 290px;
+	right: 1%;
+}
+
+#order {
+
+	float: left;
+}
+
+#scoop hr{
+    width: 30px;
+}
+
+option {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+}
+
+
