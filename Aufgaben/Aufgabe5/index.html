@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Aufgabe4</title>
+
+
+</head>
+
+<body>
+    <!--
+Aufgabe: Aufgabe Nummer4
+Name: Mirko Stoll
+Matrikel: 259696
+Datum: 18.04.2019
+Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. Er wurde nicht kopiert und auch nicht diktiert. 
+*/-->
+    <header>
+
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </header>
+    <!--Eisformular-fieldset-->
+
+
+        <!--Eis-fieldset-->
+        <fieldset id="Ice creams">
+            <legend>Ice creams</legend>
+
+            <!--Eissorten-dropdown-->
+            <select name="Ice creams" id="iceCreams">
+                <optgroup label="Classic">
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Vanilla">Vanilla</option>
+                    <option value="Stracciatella">Stracciatella</option>
+                </optgroup>
+                <optgroup label="Fancy">
+                    <option value="bounty">Bounty</option>
+                    <option value="snickers">Snickers</option>
+                    <option value="kinderriegel">Kinderriegel</option>
+                    <option value="gummybear">Gummy bear</option>
+                </optgroup>
+                <optgroup label="Fruity">
+                    <option value="apple">Apple</option>
+                    <option value="orange">Orange</option>
+                    <option value="bananna">Bananna</option>
+                    <option value="citrus">Citrus</option>
+                </optgroup>
+            </select>
+
+            <!--Stepper-->
+            <input type="number" id="scoop" min="0" max="5" value="0" />
+
+            <!--Weitere Eissorten -->
+            <button id="more">More</button>
+
+        </fieldset>
+
+        <!--Waffel-fieldset-->
+        <fieldset id="cone/sundae">
+            <legend>Cone/Sundae</legend>
+            <input type="radio" name="cone/sundae" value="cone" id="cone" />
+            <label for="cone">Cone</label>
+            <input type="radio" name="cone/sundae" value="sundae" id="sundae" />
+            <label for="sundae">Sundae</label>
+        </fieldset>
+
+        <!--Topping-fieldset-->
+        <fieldset id="topping">
+            <legend>Topping</legend>
+            <input type="checkbox" name="Crumble" value="crumble" id="crumble" />
+            <label for="crumble">Crumble</label>
+            <input type="checkbox" name="Chocolate Sauce" value="chocolate sauce" id="chocolate sauce" />
+            <label for="chocolate sauce">Chocolate Sauce</label>
+            <input type="checkbox" name="Cream" value="cream" id="cream" />
+            <label for="cream">Cream</label>
+            <input type="checkbox" name="Cherry" value="cherry" id="cherry" />
+            <label for="cherry">Cherry</label>
+            <input type="checkbox" name="Salt" value="salt" id="salt" />
+            <label for="salt">Salt</label>
+        </fieldset>
+
+        <!--Lieferart-fieldset-->
+        <fieldset id="delivery options">
+            <legend>Delivery Options</legend>
+            <input type="radio" name="delivery options" value="deliver" id="deliver" />
+            <label for="deliver">Deliver</label>
+            <input type="radio" name="delivery options" value="collection by the custumer"
+                id="collection by the custumer" />
+            <label for="collection by the custumer">Collection by the custumer</label>
+        </fieldset>
+
+        <!--Adresse-fieldset-->
+        <fieldset id="adress">
+            <legend>Adress</legend>
+
+            <input type="text" name="Forename" placeholder="Forename" id="forename" required /><br>
+            <input type="text" name="Name" placeholder="Name" id="name" required /><br>
+            <input type="text" name="Street" placeholder="Street" id="street" /><br>
+            <input type="text" name="Postcode" placeholder="Postcode" id="postcode" /><br>
+            <input type="email" name="Mail" placeholder="Mail" id="mail" />
+        </fieldset>
+
+        <!--Progress-fieldset-->
+        <fieldset id="progress">
+            <legend>Progress</legend>
+            <progress value="0" max="1"> </progress>
+        </fieldset>
+    </fieldset>
+    <hr />
+
+    <!--Bestellung-fieldset-->
+    <fieldset id="order">
+        <legend>Order</legend>
+
+        <!--Eissorten-Bestellung-fieldset-->
+        <!--<fieldset id="orderIceCream"></fieldset>
+            <legend>Ice Cream/s</legend>
+        </fieldset>
+
+        Waffel-Bestellung-fieldset
+        <fieldset id="orderCone/sundae">
+            <legend>Cone/Sundae</legend>
+        </fieldset>
+
+        <Topping-Bestellung-fieldset
+        <fieldset id="orderCone/sundae">
+            <legend>Topping</legend>
+        </fieldset>
+
+        Lieferart-Bestellung-fieldset
+        <fieldset id="orderDeliveryOptions">
+            <legend>Delivery Options</legend>
+        </fieldset>
+        -->
+
+
+
+
+</body>
+
+</html>
